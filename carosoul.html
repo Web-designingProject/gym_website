@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/mislider.css">
+	<style>
+	
+	.mis-stage {
+background-color: #fff;
+}
+.mis-slider {
+margin-top: 138px;
+height: 80px;
+background-color: #eee;
+}
+.mis-slider li a {
+text-decoration: none;
+color: #666;
+display: block;
+}
+.mis-slider li figcaption {
+font-size: 1.5em;
+}
+.mis-slider li img {
+
+max-width: 270px;
+width: 100%;
+border-radius: 135px;
+border: none;
+}
+.mis-slide {
+width: 360px;
+height: 360px;
+padding: 40px;
+margin-top: -138px
+}
+.mis-nav-buttons a {
+color: #fff;
+}
+	</style>
+</head>
+<body>
+	
+	<div class="mis-stage"> 
+<!-- The element to select and apply miSlider to - the class is optional -->
+<ol class="mis-slider">
+<!-- The slider element - the class is optional -->
+<li class="mis-slide"> 
+<!-- A slide element - the class is optional --> 
+<a href="#" class="mis-container"> 
+<!-- A slide container - this element is optional, if absent the plugin adds it automatically -->
+<figure> 
+<!-- Slide content - whatever you want --> 
+<img src="img/slide1.jpeg" alt="Pink Water Lillies">
+<figcaption>Pink Water Lillies</figcaption>
+</figure>
+</a> </li>
+<li class="mis-slide"> <a href="#" class="mis-container">
+<figure> <img src="img/slide2.jpg" alt="Pond with Lillies">
+<figcaption>Pond with Lillies</figcaption>
+</figure>
+</a> </li>
+<li class="mis-slide"> <a href="link" class="mis-container">
+<figure> <img src="img/slide3.jpg" alt="Hidden Pond">
+<figcaption>Hidden Pond</figcaption>
+</figure>
+</a> </li>
+<li class="mis-slide"> <a href="#" class="mis-container">
+<figure> <img src="img/slide4.jpg" alt="Shrine">
+<figcaption>Shrine</figcaption>
+</figure>
+</a> </li>
+
+</ol>
+</div>
+	
+	
+	
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/mislider.min.js"></script>
+	<script>
+		jQuery(function ($) {
+var slider = $('.mis-stage').miSlider({
+stageHeight: 380,
+slidesOnStage: false,
+slidePosition: 'center',
+slideStart: 'mid',
+slideScaling: 150,
+offsetV: -5,
+centerV: true,
+navButtonsOpacity: 1,
+});
+});
+	
+	
+	</script>
+</body>
+</html>
