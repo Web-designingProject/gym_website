@@ -33,7 +33,7 @@ a{text-decoration: none}
 .navbar1{position: absolute;top: 0;width: 100%;background: transparent;border: none;z-index: 1;padding: 20px 0}
 .navbar-inverse .navbar-nav>li>a{color: #fff;font-size: 20px}
 .carousel-caption{bottom:130px;text-transform: uppercase;}
-.title-caption{font-size: 24px;background: rgba(0,0,0,0.8)}
+.title-caption{font-size: 2vw;background: rgba(0,0,0,0.8)}
 .captions{font-size: 4vw;padding-top: 30px}
 .title-caption em{color:#fff;font-weight: bold;text-shadow: 0 4px 6px #e10417}
 .carousel-indicators li{width: 32px; }
@@ -81,7 +81,7 @@ a{text-decoration: none}
 .bmi-para{color: #fff;font-size: 20px;text-align: left}
 .bmi-form label span{color: red;margin-left: -17px}
 .bmi-form label{color: #fff;margin-right:55px;font-size: 20px}
-.bmi-input{background: transparent;border: none;border-bottom: 2px solid #fff;width: 117px;margin-right:35px;font-size: 17px}
+.bmi-input{background: transparent;border: none;border-bottom: 2px solid #fff;width: 117px;margin-right:35px;font-size: 17px;margin-bottom: 74px;}
 .result-heading{text-align: center}
 .result{font-size: 30px;text-align: center}
 .cal-btn{margin: 79px 0 0 0}
@@ -171,7 +171,7 @@ a{text-decoration: none}
 
 /*===========================WRAP-7=================*/
 
-.wrap-7{margin-top: 50px;background: #f0f0f0;padding-bottom: 50px;position: relative;z-index: -1}
+.wrap-7{margin-top: 50px;padding-bottom: 50px;position: relative;z-index: -1}
 #owl-demo .item{
   margin: 3px;
 }
@@ -283,7 +283,7 @@ article[title="item6"]{background:linear-gradient(to bottom, rgba(103, 141, 70,0
 .circle-3{top: -101px}
 .circle-4{top: -143px}
 .count_num{text-align: center;font-weight: 700;color: #000}
-.count-title{text-align: center;text-transform:uppercase;font-weight: 600;color: #000}
+.count-title{text-align: center;text-transform:uppercase;font-size: inherit;font-weight: 600;color: #000}
 
 /*-----------------gym-info---------------------*/
 .gymheading{text-align: center;text-transform: uppercase;font-weight: 700;letter-spacing: 4px}
@@ -471,14 +471,12 @@ width:234px;
 .profileTwo{background: url(../img/4.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileThree{background: url(../img/5.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileFour{background: url(../img/6.jpg)no-repeat;background-size: contain;background-attachment: fixed}
-.profileFive{background: url(../img/five.jpg)no-repeat;background-size: contain;background-attachment: fixed}
+
 .profileSix{background: url(../img/six.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileSeven{background: url(../img/seven.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileEight{background: url(../img/trainer7.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileNine{background: url(../img/trainer8.jpg)no-repeat;background-size: contain;background-attachment: fixed}
-.profileTen{background: url(../img/ten.jpg)no-repeat;background-size: contain;background-attachment: fixed}
-.profileEleven{background: url(../img/3.jpg)no-repeat;background-size: contain;background-attachment: fixed}
-.profileTwelve{background: url(../img/4.jpg)no-repeat;background-size: contain;background-attachment: fixed}
+
 
 /*================================================================================PAGE-5============================*/
 .navbar-opacity{background: rgba(0,0,0,0.3)}
@@ -507,7 +505,7 @@ width:234px;
 .owl-para{text-align: left}
 .owl-span1{color: #e10013;text-transform: capitalize}
 .owl-span2{float: right;color: #e10013}
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item{margin-right: 5px;}
+
 .item img{box-shadow: 0 0 5px}
 .yoga-wrapper-div{border: 1px solid;width: 275px;padding: 10px;box-shadow: 0 0 5px }
 
@@ -703,7 +701,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.navbar{background: #222;border: none}
 	.navbar-nav>.list-item{margin-right: -24px}
 	.carousel-inner>.item>img{margin-top: 50px;}
-	.circle_div{width: 132px;height: 132px}
+	.circle_div{width: 100%;height: 132px;border-radius: 0;}
 	.ui-widget{padding-bottom: 30px;}
 	.address{width: 100%}
 	.cont-img{display: block;margin: 0 auto}
@@ -715,7 +713,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.pageheading{font-size: 30px;top: 110px}
 	.carousel-indicators .active{width: 21px}
 	.carousel-indicators li{width: 21px}
-	.title-caption{font-size: 16px;}
+	
 	.captions {padding-top: 0px}
 	/*.slider{position: relative;top: 40px}*/
 	.navbar-brand>img{width: 43px}
@@ -724,7 +722,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.arrows img{width: 50%}
 	.line-div{width: 56%}
 	.choose-us{margin-top: 39px;}
-	.count-title{font-size: 1.2rem;}
+	.count-title{font-size: 1rem;}
 	/*.training-banner{height: auto}*/
 	.heading_top{top: 46px}
 	.navbar1{padding: 0}
@@ -747,6 +745,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.my-btn{width: 186px;font-size: 20px}
 	.address {padding-left: 20px;}
 	/*.pageheading{font-size: 30px;top: 356px}*/
+	.about-list{padding: 0;}
 	
 	.navbar-inverse .navbar-nav>li>a{font-size: 16px}
 	.captions{padding-top: 0px;font-size: 3vw}
@@ -779,7 +778,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	
 	.carousel-inner>.item>img{width: 100%;height:auto}
 	.carousel-caption{bottom:8px}
-	.title-caption{font-size:20px}
+	
 	.captions{padding-top: 0px;}
 	.ui-tabs .ui-tabs-nav li{margin-right:24px;margin-bottom: 11px;}
 	.ui-widget{margin-top:0px;padding-bottom: 0}

@@ -17,10 +17,10 @@ $(document).ready(function(){
 		$('.result').text(total);
 		
 	});
-	
+})//function ends...
 	// ANIMATION
 	new WOW().init();
-	$('article').flipcarousel();
+	//$('article').flipcarousel();
 	
 	$('article').flipcarousel({
 itemsperpage : 3, // number of cards to display at once
@@ -30,4 +30,4 @@ loader : false, // show loader when loading content
 arrows : true // arrows for previous/next navigation
 });
 	
-})//function ends...
+
