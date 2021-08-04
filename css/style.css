@@ -687,7 +687,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 /*-------------MEDIA QUERY--------------*/
 @media screen and (max-width: 480px){.para_top{margin-top: -17px}}
 @media screen and (max-width:640px){
-.carousel-inner.item{height:400px;}
+	.carousel-inner>.item>img{height:auto;}
 	.abt-img{width:73%}
 	.headingOne{font-size: 3.1vw}
 	article[title="item1"]{margin-top:-71px}
