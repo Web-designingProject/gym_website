@@ -779,7 +779,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 
 @media (max-width:1170px){
 	
-	.carousel-inner>.item>img{width: 100%;height:auto}
+	/* .carousel-inner>.item>img{width: 100%;height:auto} */
 	.carousel-caption{bottom:8px}
 	
 	.captions{padding-top: 0px;}
