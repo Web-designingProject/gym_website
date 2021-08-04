@@ -697,7 +697,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.heading_top{top: 70px}
 	
 }
-@media screen and (max-width:640px){.carousel-inner>.item>img{height: 205px;}}
+
 @media (max-width:786px){
 	.navbar{background: #222;border: none}
 	.navbar-nav>.list-item{margin-right: -24px}
