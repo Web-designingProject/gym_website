@@ -697,7 +697,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.heading_top{top: 70px}
 	
 }
-@media screen and (min-width:640px){	.carousel-inner>.item>img{width: 100%;height:205px}}
+
 @media (max-width:786px){
 	.navbar{background: #222;border: none}
 	.navbar-nav>.list-item{margin-right: -24px}
@@ -780,6 +780,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 @media (max-width:1170px){
 	
 	/* .carousel-inner>.item>img{width: 100%;height:auto} */
+	.carousel-inner>.item>img{width: 100%;height:205px}
 	.carousel-caption{bottom:8px}
 	
 	.captions{padding-top: 0px;}
