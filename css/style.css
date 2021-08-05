@@ -703,7 +703,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.navbar-nav>.list-item{margin-right: -24px}
 	.carousel-inner>.item>img{margin-top: 50px;}
 	.circle_div{width: 79px;height: 79px;}
-	.count_num{font-size: 11px;margin-top: 9px;}
+	.count_num{font-size: 11px;margin-top: 9px;font-weight: 600;}
 	.ui-widget{padding-bottom: 30px;}
 	.address{width: 100%}
 	.cont-img{display: block;margin: 0 auto}
