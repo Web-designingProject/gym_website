@@ -751,7 +751,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.about-list{padding: 0;}
 	
 	.navbar-inverse .navbar-nav>li>a{font-size: 16px}
-	.captions{padding-top: 0px;font-size: 3vw}
+	.captions{padding-top: 0px;}
 	.carousel-indicators{bottom: -1px}
 	.navbar-nav{float: none}
 	.arrows{top:93px;display: block}
