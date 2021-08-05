@@ -699,7 +699,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 }
 
 @media (max-width:786px){
-	.navbar{background: #222;border: ;position: static;}
+	.navbar{background: #222;position: static;}
 	.navbar-nav>.list-item{margin-right: -24px}
 	.carousel-inner>.item>img{margin-top: 50px;}
 	.circle_div{width: 79px;height: 79px;}
@@ -730,7 +730,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.navbar1{padding: 0}
 	.navbar-brand>img{margin-top: -12px;}
 	.service-pic{margin-top: 49px;}
-	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;height: 27%;}
+	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;background-size: cover;height: 27%;}
 }
 
 @media (max-width:992px){
