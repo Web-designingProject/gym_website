@@ -695,7 +695,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.zoom{height: 238px}
 	.subSection{margin-top: 39px;}
 	.heading_top{top: 70px}
-	.count-title{font-size: 1.9vw;}
+	
 }
 
 @media (max-width:786px){
@@ -725,7 +725,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.arrows img{width: 50%}
 	.line-div{width: 56%}
 	.choose-us{margin-top: 39px;}
-	.count-title{font-size: 1vw;}
+	.count-title{font-size: 1.5vw;}
 	/*.training-banner{height: auto}*/
 	.heading_top{top: 46px}
 	.navbar1{padding: 0}
