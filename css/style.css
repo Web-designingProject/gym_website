@@ -730,7 +730,8 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.heading_top{top: 46px}
 	.navbar1{padding: 0}
 	.navbar-brand>img{margin-top: -12px;}
-	.service-pic{margin-top: 49px;}
+	.service-pic{margin-top: 49px;position: relative;}
+	.yogaheading{position: absolute;font-size: 24px;}
 	.service-pic img{height: auto;}
 	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;background-size: cover;height: 27%;}
 }
