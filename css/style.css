@@ -731,6 +731,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.navbar1{padding: 0}
 	.navbar-brand>img{margin-top: -12px;}
 	.service-pic{margin-top: 49px;}
+	.service-pic img{height: auto;}
 	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;background-size: cover;height: 27%;}
 }
 @media screen and (max-width:786px) and (orientation: landscape) {.abtus-banner{height: 62%;}}
