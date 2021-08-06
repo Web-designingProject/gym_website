@@ -695,14 +695,15 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.zoom{height: 238px}
 	.subSection{margin-top: 39px;}
 	.heading_top{top: 70px}
-	
+	.count-title{font-size: 1.9vw;}
 }
 
 @media (max-width:786px){
-	.navbar{background: #222;position: static;}
+	.navbar{background: #222}
+	.navlist{position:static}
 	.navbar-nav>.list-item{margin-right: -24px}
 	.carousel-inner>.item>img{margin-top: 50px;}
-	.circle_div{width: 79px;height: 79px;}
+	.circle_div{width: 78px;height: 78px;}
 	.count_num{font-size: 11px;margin-top: 9px;font-weight: 600;}
 	.ui-widget{padding-bottom: 30px;}
 	.address{width: 100%}
@@ -724,7 +725,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.arrows img{width: 50%}
 	.line-div{width: 56%}
 	.choose-us{margin-top: 39px;}
-	.count-title{font-size: 1.9vw;}
+	.count-title{font-size: 1vw;}
 	/*.training-banner{height: auto}*/
 	.heading_top{top: 46px}
 	.navbar1{padding: 0}
@@ -732,6 +733,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.service-pic{margin-top: 49px;}
 	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;background-size: cover;height: 27%;}
 }
+@media screen and (max-width:786px) and (orientation: landscape) {.abtus-banner{height: 62%;}}
 
 @media (max-width:992px){
 	#menu-list{width: 100%}
