@@ -474,7 +474,7 @@ width:234px;
 
 .profileSix{background: url(../img/six.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 .profileSeven{background: url(../img/seven.jpg)no-repeat;background-size: contain;background-attachment: fixed}
-.profileEight{background: url(../img/trainer7.jpg)no-repeat;background-size: contain;background-attachment: fixed}
+
 .profileNine{background: url(../img/trainer8.jpg)no-repeat;background-size: contain;background-attachment: fixed}
 
 
@@ -773,7 +773,8 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.pricingtable{margin-bottom: 25px}
 	.rate{margin-left: -15px;}
 	.overlay-profile{background: rgba(0,0,0,0.5);color: #fff;width: 100%;padding: 10px}
-	.profileone{background-position: center center}
+	.profileone,.profileTwo,.profileThree,.profileFour,.profileSix,.profileSeven,.profileNine{background-position: center center}
+	.sect{background-attachment: scroll;}
 	.teachername, .profession{color: #fff}
 	.teacher-info a{color: #fff}
 	.navbar-inverse .navbar-nav>li>a{font-size: 14px}
