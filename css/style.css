@@ -735,6 +735,7 @@ footer{background: url(../img/footerbg.jpg) repeat;color: #fff;margin-top: 50px;
 	.service-pic img{height: auto;}
 	.abtus-banner{background: url(../img/aboutusbanner-phone.jpg)no-repeat;background-size: cover;height: 27%;}
 	.yoga-wrapper-div{width: 100%;}
+	.training-banner{height:50vh}
 }
 @media screen and (max-width:786px) and (orientation: landscape) {.abtus-banner{height: 62%;}}
 
